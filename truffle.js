@@ -4,13 +4,17 @@ module.exports = {
     "app.js": [
       "javascripts/app.js"
     ],
+    "bower_components/": [
+        "bower_components/"
+    ],
     "app.css": [
       "stylesheets/app.css"
     ],
-    "images/": "images/"
   },
   rpc: {
     host: "localhost",
-    port: 8545
+    port: 8545,
+    gas: 4712388,
+    gasPrice: 50000000000
   }
 };
